@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #a7d7c5;
+}
+
+.fullscreen {
+  width: 100vw - 260px;
+  height: 100vh;
+}
+
+/* MARGINS */
+
+.margin-130 {
+  margin: 130px;
+}
+
+.section-center {
+  display: flex;
+  justify-content: center;
+}
