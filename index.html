@@ -4,15 +4,41 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Sign up</title>
     <!-- GENERAL STYLES -->
     <link rel="stylesheet" href="./styles/general/general.css" />
     <!-- FORM STYLES -->
     <link rel="stylesheet" href="./styles/general/form.css" />
+    <!-- TYPOGRAPHY -->
+    <link rel="stylesheet" href="./styles/general/typeography.css" />
   </head>
   <body>
     <div class="fullscreen section-center margin-130">
-      <main class="form-section">hello</main>
+      <main class="form-section form-main">
+        <div class="form-header">
+          <h2 class="title text-shadow mb-6">Create An Account</h2>
+          <p class="text form-description">
+            Create an account to enjoy all the services without any ads for
+            free!
+          </p>
+        </div>
+
+        <form action="">
+          <input type="text" class="form-input" placeholder="Enter Name" />
+          <input
+            type="password"
+            class="form-input"
+            placeholder="Enter Password"
+          />
+          <input type="email" class="form-input" placeholder="Enter Email" />
+        </form>
+      </main>
     </div>
   </body>
 </html>

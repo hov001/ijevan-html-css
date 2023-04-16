@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Karla", sans-serif;
 }
 
 body {
@@ -13,13 +14,17 @@ body {
   height: 100vh;
 }
 
+.section-center {
+  display: flex;
+  justify-content: center;
+}
+
 /* MARGINS */
 
 .margin-130 {
   margin: 130px;
 }
 
-.section-center {
-  display: flex;
-  justify-content: center;
+.mb-6 {
+  margin-bottom: 6px;
 }
