@@ -15,8 +15,10 @@
     <link rel="stylesheet" href="./styles/general/general.css" />
     <!-- FORM STYLES -->
     <link rel="stylesheet" href="./styles/general/form.css" />
-    <!-- TYPOGRAPHY -->
+    <!-- TYPOGRAPHY STYLES -->
     <link rel="stylesheet" href="./styles/general/typeography.css" />
+    <!-- BUTTON STYLES -->
+    <link rel="stylesheet" href="./styles/general/button.css" />
   </head>
   <body>
     <div class="fullscreen section-center margin-130">
@@ -29,14 +31,30 @@
           </p>
         </div>
 
-        <form action="">
-          <input type="text" class="form-input" placeholder="Enter Name" />
+        <form action="./data.php" method="post" class="form">
+          <input
+            type="text"
+            class="form-input"
+            placeholder="Enter Name"
+            name="firstName"
+            required
+          />
           <input
             type="password"
             class="form-input"
             placeholder="Enter Password"
+            name="password"
+            required
           />
-          <input type="email" class="form-input" placeholder="Enter Email" />
+          <input
+            type="email"
+            class="form-input"
+            placeholder="Enter Email"
+            name="email"
+            required
+          />
+
+          <input type="submit" class="btn btn-success desc form-submit" />
         </form>
       </main>
     </div>

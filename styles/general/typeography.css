@@ -1,5 +1,6 @@
 .title,
-.text {
+.text,
+.desc {
   text-align: center;
   color: #212b27;
 }
@@ -8,6 +9,12 @@
   font-weight: 700;
   font-size: 45px;
   line-height: 60px;
+}
+
+.desc {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
 }
 
 .text {
